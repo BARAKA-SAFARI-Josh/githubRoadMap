@@ -2,14 +2,49 @@
   margin: 0;
 }
 body {
-  background-color: rgb(240, 240, 240);
-  max-width: 500px;
+  max-width: 700px;
   margin: auto;
-  /* max-height: 50vh; */
+}
+input,
+body {
+  background-color: rgb(240, 240, 240);
 }
 .contenaire {
-  border-radius: 4px;
+  height: 300px;
   margin: 50px;
-  padding: 40px;
+  padding: 50px;
   background-color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.contenaire,
+input {
+  border-radius: 4px;
+}
+
+input {
+  border: none;
+  padding: 20px;
+  &:hover {
+    transition: 250ms ease-in-out;
+    scale: 1;
+    border: 3px solid green;
+  }
+}
+.btn {
+  padding: 10px 40px;
+  margin-top: 100px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(1, 119, 1);
+  color: white;
+  transition: 250ms ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+    scale: 0.98;
+  }
 }
