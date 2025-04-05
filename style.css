@@ -11,7 +11,7 @@ body {
 }
 .contenaire {
   height: 300px;
-  margin: 50px;
+  margin: 10px 50px 50px 50px;
   padding: 50px;
   background-color: white;
 }
@@ -47,4 +47,13 @@ input {
     opacity: 0.8;
     scale: 0.98;
   }
+}
+.title {
+  max-width: 600px;
+  margin: auto;
+  color: rgb(1, 119, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
 }
