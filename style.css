@@ -57,3 +57,12 @@ input {
   justify-content: space-between;
   margin-top: 50px;
 }
+.cont-sig {
+  height: 450px;
+}
+.btn-sig {
+  margin-top: 50px;
+}
+return-errow {
+  font-weight: bold;
+}
